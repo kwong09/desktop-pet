@@ -1,0 +1,24 @@
+{
+  "name": "desktop-pet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwong09/desktop-pet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwong09/desktop-pet/issues"
+  },
+  "homepage": "https://github.com/kwong09/desktop-pet#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^39.2.6"
+  }
+}
