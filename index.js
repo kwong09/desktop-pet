@@ -8,6 +8,14 @@ const createWindow = () => {
 
     win.loadFile('index.html')
     win.setMenuBarVisibility(false)
+
+    //tracks if window is in focus and in-use
+    win.on('focus', () => {
+        console.log('focused window');
+    });
+    win.on('blur', () => {
+        console.log('not focused window!');
+    });
 }
 
 app.whenReady().then(() => {
