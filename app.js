@@ -1,7 +1,8 @@
 
-let headerOne = document.getElementById("headerOne")
+let currentTime = document.getElementById("currentTime")
 
+//updates clock
 setInterval(() => {
     const localTime = new Date().toLocaleTimeString()
-    headerOne.innerHTML = localTime
+    currentTime.innerHTML = localTime
 }, 1000)

@@ -1,0 +1,22 @@
+#pet {
+    background-color: rgb(78, 172, 203);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+#timerButtons {
+    background-color: pink;
+    height: 30px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 10px;
+}
